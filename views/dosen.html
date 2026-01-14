@@ -1,0 +1,20 @@
+<a href="index.php" class="text-blue-600 mb-4 inline-block">← Kembali</a>
+
+<h1 class="text-3xl font-bold mb-6"><?= $nama_dosen ?></h1>
+
+<div class="space-y-4">
+<?php foreach ($penelitians as $p): ?>
+    <div class="bg-white p-4 rounded shadow flex justify-between items-center">
+    <div>
+        <h2 class="font-semibold"><?= $p['judul'] ?></h2>
+        <p class="text-sm text-gray-500"><?= $p['tahun'] ?></p>
+    </div>
+
+    <a href="https://www.google.com"
+       target="_blank"
+       class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+        Apply
+    </a>
+</div>
+<?php endforeach; ?>
+</div>
