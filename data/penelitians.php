@@ -1,21 +1,44 @@
 <?php
 return [
     1 => [
-        ['judul' => 'Kontrol PID Motor DC', 'tahun' => 2023],
-        ['judul' => 'Kontrol Adaptif Robot', 'tahun' => 2024],
+        ['judul' => 'Kontrol PID Motor DC', 'tahun' => 2023,
+        'deskripsi' => 'Penelitian ini membahas penerapan kontrol PID untuk meningkatkan stabilitas dan akurasi pergerakan robot omniwheel.',
+        ],
+
+        ['judul' => 'Kontrol PID Motor DC', 'tahun' => 2023,
+        'deskripsi' => 'Penelitian ini membahas penerapan kontrol PID untuk meningkatkan stabilitas dan akurasi pergerakan robot omniwheel.',
+        ],
     ],
     2 => [
-        ['judul' => 'Navigasi Robot Otonom', 'tahun' => 2022],
+        ['judul' => 'Kontrol PID Motor DC', 'tahun' => 2023,
+        'deskripsi' => 'Penelitian ini membahas penerapan kontrol PID untuk meningkatkan stabilitas dan akurasi pergerakan robot omniwheel.',
+        ],
+
     ],
     3 => [
-        ['judul' => 'Implementasi Sensor Lidar pada Mobil Otonom', 'tahun' => 2026],
-        ['judul' => 'Path Planning Berbasis Visual pada Mobil Otonom', 'tahun' => 2026],
-        ['judul' => 'Desain Sistem Kontrol berbasis STM32 pada Mobil Otonom', 'tahun' => 2026],
+        ['judul' => 'Kontrol PID Motor DC', 'tahun' => 2023,
+        'deskripsi' => 'Penelitian ini membahas penerapan kontrol PID untuk meningkatkan stabilitas dan akurasi pergerakan robot omniwheel.',
+        ],
+
+        ['judul' => 'Kontrol PID Motor DC', 'tahun' => 2023,
+        'deskripsi' => 'Penelitian ini membahas penerapan kontrol PID untuk meningkatkan stabilitas dan akurasi pergerakan robot omniwheel.',
+        ],
+
+        ['judul' => 'Kontrol PID Motor DC', 'tahun' => 2023,
+        'deskripsi' => 'Penelitian ini membahas penerapan kontrol PID untuk meningkatkan stabilitas dan akurasi pergerakan robot omniwheel.',
+        ],
+
     ],
     4 => [
-        ['judul' => 'Monitoring IoT Berbasis MQTT', 'tahun' => 2024],
+        ['judul' => 'Kontrol PID Motor DC', 'tahun' => 2023,
+        'deskripsi' => 'Penelitian ini membahas penerapan kontrol PID untuk meningkatkan stabilitas dan akurasi pergerakan robot omniwheel.',
+        ],
+
     ],
     5 => [
-        ['judul' => 'Monitoring IoT Berbasis MQTT', 'tahun' => 2024],
+        ['judul' => 'Kontrol PID Motor DC', 'tahun' => 2023,
+        'deskripsi' => 'Penelitian ini membahas penerapan kontrol PID untuk meningkatkan stabilitas dan akurasi pergerakan robot omniwheel.',
+        ],
+        
     ],
 ];
