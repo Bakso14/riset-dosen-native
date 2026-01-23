@@ -57,22 +57,20 @@ return [
 
     ],
     3 => [
-        ['judul' => 'Kontrol PID Motor DC', 'tahun' => 2023,
-        'deskripsi' => 'Penelitian ini membahas penerapan kontrol PID untuk meningkatkan stabilitas dan akurasi pergerakan robot omniwheel.',
-        ],
-
-        ['judul' => 'Kontrol PID Motor DC', 'tahun' => 2023,
-        'deskripsi' => 'Penelitian ini membahas penerapan kontrol PID untuk meningkatkan stabilitas dan akurasi pergerakan robot omniwheel.',
-        ],
-
-        ['judul' => 'Kontrol PID Motor DC', 'tahun' => 2023,
-        'deskripsi' => 'Penelitian ini membahas penerapan kontrol PID untuk meningkatkan stabilitas dan akurasi pergerakan robot omniwheel.',
+        ['judul' => '', 
+        'tahun' => 2026,
+        'deskripsi' => '',
+        'kuota' => 0,
+        'link' => "",
         ],
 
     ],
     4 => [
-        ['judul' => 'Kontrol PID Motor DC', 'tahun' => 2023,
-        'deskripsi' => 'Penelitian ini membahas penerapan kontrol PID untuk meningkatkan stabilitas dan akurasi pergerakan robot omniwheel.',
+        ['judul' => '', 
+        'tahun' => 2026,
+        'deskripsi' => '',
+        'kuota' => 0,
+        'link' => "",
         ],
 
     ],
