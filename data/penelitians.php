@@ -57,10 +57,30 @@ return [
 
     ],
     3 => [
-        ['judul' => '', 
+        ['judul' => 'Path Planning Robot Omniwheel pada Area Terbatas sebagai Solusi Inspeksi Infrastruktur Berisiko', 
         'tahun' => 2026,
-        'deskripsi' => '',
-        'kuota' => 0,
+        'deskripsi' => 'Terdapat banyak sekali area terbatas bagi manusia, sebagian besar karena resiko kesehatan. Penelitian ini diajukan sebagai sebuah solusi dalam inspeksi infrastuktur beresiko pada area terbatas dengan memanfaatkan robot omniwheel yang dapat bergerak bebas ke segala arah. Area riset tahun ini pada path planning robot yang dimana menentukan seberapa efisien gerak robot dari satu titik menuju titik tujuan. Area terbatas yang akan menjadi lokasi uji coba adalah pabrik air kemasan yang dalam proses produksinya banyak sekali menghasilkan ozon yang berbahaya bagi pernafasan dan mata manusia.',
+        'kuota' => 1,
+        'link' => "",
+        ],
+
+         ['judul' => 'Autonomous Car Sebagai Solusi Otomatisasi Pemindahan Logistik Barang: Prototyoe', 
+        'tahun' => 2026,
+        'deskripsi' => 'Autonomous Car merupakan teknologi yang kompleks karena terdiri dari berbagai jenis sensor dan harus saling bersinergi dalam mendeteksi apapun yang terjadi disekitarnya. Penelitian ini berfokus pada proses pendeteksian objek sekitar mobil otonom
+        Ada dua topik yang diriset pada penelitian ini:
+        1. Pendeteksian jalur berkendara aman pada mobil otonom berdasarkan struktur dan marka jalan
+        2. Pendeteksian objek sekitar mobil dengan memanfaatkan lidar',
+        'kuota' => 2,
+        'link' => "",
+        ],
+
+        ['judul' => 'Autonomous Car Sebagai Solusi Otomatisasi Pemindahan Logistik Barang: Prototyoe', 
+        'tahun' => 2026,
+        'deskripsi' => 'Autonomous Car merupakan teknologi yang kompleks karena terdiri dari berbagai jenis sensor dan harus saling bersinergi dalam mendeteksi apapun yang terjadi disekitarnya. Penelitian ini berfokus pada proses pendeteksian objek sekitar mobil otonom
+        Ada dua topik yang diriset pada penelitian ini:
+        1. Pendeteksian jalur berkendara aman pada mobil otonom berdasarkan struktur dan marka jalan
+        2. Pendeteksian objek sekitar mobil dengan memanfaatkan lidar',
+        'kuota' => 2,
         'link' => "",
         ],
 
