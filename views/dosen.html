@@ -4,11 +4,12 @@
 
 <div class="space-y-4">
     <?php foreach ($penelitians as $p): ?>
-        <div class="bg-white p-4 rounded shadow flex justify-between items-center">
+        <div class="bg-white p-4 rounded shadow flex flex-col">
         <div>
-            <h2 class="font-semibold"><?= $p['judul'] ?></h2>
+            <h2 class="font-semibold text-xl mt-3"><?= $p['judul'] ?></h2>
             <p class="text-sm text-gray-500"><?= $p['tahun'] ?></p>
             <!-- <p class="text-gray-600 text-sm mt-2"><?= $p['deskripsi'] ?> </p> -->
+             
             <p class="text-gray-600 text-sm mt-2 whitespace-pre-line">
                 <?= $p['deskripsi'] ?>
             </p>
@@ -16,7 +17,7 @@
         </div>
 
         <a href="<?= $p['link'] ?>" target="_blank"
-        class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+        class="block mx-auto mt-4 bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition text-center w-fit">
             Apply
         </a>
     </div>
