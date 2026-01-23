@@ -1,25 +1,37 @@
-<a href="index.php" class="text-blue-600 mb-4 inline-block">← Kembali</a>
+<a href="index.php" class="text-blue-600 mb-4 inline-block text-sm sm:text-base">
+    ← Kembali
+</a>
 
-<h1 class="text-3xl font-bold mb-6"><?= $nama_dosen ?></h1>
+<h1 class="text-2xl sm:text-3xl font-bold mb-6 text-center sm:text-left">
+    <?= $nama_dosen ?>
+</h1>
 
 <div class="space-y-4">
     <?php foreach ($penelitians as $p): ?>
-        <div class="bg-white p-4 rounded shadow flex flex-col">
-        <div>
-            <h2 class="font-semibold text-xl mt-3"><?= $p['judul'] ?></h2>
-            <p class="text-sm text-gray-500"><?= $p['tahun'] ?></p>
-            <!-- <p class="text-gray-600 text-sm mt-2"><?= $p['deskripsi'] ?> </p> -->
-             
-            <p class="text-gray-600 text-sm mt-2 whitespace-pre-line">
-                <?= $p['deskripsi'] ?>
-            </p>
-            <h3 class="text-xl font-bold mt-6">Kuota : <?= $p['kuota'] ?></h3>
-        </div>
+        <div class="bg-white p-4 sm:p-6 rounded shadow flex flex-col">
+            <div>
+                <h2 class="font-semibold text-lg sm:text-xl mt-2">
+                    <?= $p['judul'] ?>
+                </h2>
 
-        <a href="<?= $p['link'] ?>" target="_blank"
-        class="block mx-auto mt-4 bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition text-center w-fit">
-            Apply
-        </a>
-    </div>
+                <p class="text-xs sm:text-sm text-gray-500">
+                    <?= $p['tahun'] ?>
+                </p>
+
+                <p class="text-gray-600 text-sm sm:text-base mt-3 whitespace-pre-line">
+                    <?= $p['deskripsi'] ?>
+                </p>
+
+                <h3 class="text-lg sm:text-xl font-bold mt-5">
+                    Kuota : <?= $p['kuota'] ?>
+                </h3>
+            </div>
+
+            <a href="<?= $p['link'] ?>" target="_blank"
+               class="block mx-auto sm:mx-0 sm:self-end mt-4 bg-blue-600 text-white
+                      px-6 py-2 rounded hover:bg-blue-700 transition text-center w-full sm:w-fit">
+                Apply
+            </a>
+        </div>
     <?php endforeach; ?>
 </div>
