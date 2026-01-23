@@ -1,4 +1,4 @@
-<a href="index.php" class="text-blue-600 mb-4 inline-block text-sm sm:text-base">
+<a href="index.php" class="text-blue-600 mb-4 inline-block text-base sm:text-lg">
     ← Kembali
 </a>
 
@@ -6,30 +6,31 @@
     <?= $nama_dosen ?>
 </h1>
 
-<div class="space-y-4">
+<div class="space-y-5">
     <?php foreach ($penelitians as $p): ?>
-        <div class="bg-white p-4 sm:p-6 rounded shadow flex flex-col">
+        <div class="bg-white p-5 sm:p-6 rounded shadow flex flex-col">
             <div>
-                <h2 class="font-semibold text-lg sm:text-xl mt-2">
+                <h2 class="font-semibold text-xl sm:text-2xl mt-2">
                     <?= $p['judul'] ?>
                 </h2>
 
-                <p class="text-xs sm:text-sm text-gray-500">
+                <p class="text-base sm:text-sm text-gray-500 mt-1">
                     <?= $p['tahun'] ?>
                 </p>
 
-                <p class="text-gray-600 text-sm sm:text-base mt-3 whitespace-pre-line">
+                <p class="text-gray-700 text-base sm:text-lg mt-4 whitespace-pre-line leading-relaxed">
                     <?= $p['deskripsi'] ?>
                 </p>
 
-                <h3 class="text-lg sm:text-xl font-bold mt-5">
+                <h3 class="text-xl sm:text-2xl font-bold mt-6">
                     Kuota : <?= $p['kuota'] ?>
                 </h3>
             </div>
 
             <a href="<?= $p['link'] ?>" target="_blank"
-               class="block mx-auto sm:mx-0 sm:self-end mt-4 bg-blue-600 text-white
-                      px-6 py-2 rounded hover:bg-blue-700 transition text-center w-full sm:w-fit">
+               class="block mx-auto sm:self-end mt-5 bg-blue-600 text-white
+                      px-8 py-3 rounded-lg hover:bg-blue-700 transition
+                      text-center text-base sm:text-lg w-full sm:w-fit">
                 Apply
             </a>
         </div>
