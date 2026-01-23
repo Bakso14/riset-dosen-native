@@ -3,7 +3,7 @@ return [
     1 => [
         'nama' => 'Arif Widodo, S.T., M.Sc.',
         'bidang' => 'Sistem Kendali',
-        'foto' => 'https://statik.unesa.ac.id/teknikelektro/gallery/e75207c6-17e5-4f7d-9b3a-50aa42893cac.png'
+        'foto' => 'https://i-sdm.unesa.ac.id/assets/images/kepegawaian/pegawai/198709142014041001.jpg'
     ],
     2 => [
         'nama' => 'Parama Diptya Widayaka, S.ST., M.T.',

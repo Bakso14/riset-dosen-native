@@ -8,10 +8,14 @@
         <div>
             <h2 class="font-semibold"><?= $p['judul'] ?></h2>
             <p class="text-sm text-gray-500"><?= $p['tahun'] ?></p>
-            <p class="text-gray-600 text-sm mt-2"><?= $p['deskripsi'] ?> </p>
+            <!-- <p class="text-gray-600 text-sm mt-2"><?= $p['deskripsi'] ?> </p> -->
+            <p class="text-gray-600 text-sm mt-2 whitespace-pre-line">
+                <?= $p['deskripsi'] ?>
+            </p>
+            <h3 class="text-xl font-bold mt-6">Kuota : <?= $p['kuota'] ?></h3>
         </div>
 
-        <a href="https://www.google.com" target="_blank"
+        <a href="<?= $p['link'] ?>" target="_blank"
         class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
             Apply
         </a>
