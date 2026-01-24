@@ -95,11 +95,20 @@ return [
 
     ],
     4 => [
-        ['judul' => '', 
+        ['judul' => 'Pengembangan Sistem Peringatan Dini (Early Warning System) Cuaca Ekstrem Berbasis Large Language Model (LLM) di Wilayah Surabaya', 
         'tahun' => 2026,
-        'deskripsi' => '',
-        'kuota' => 0,
-        'link' => "",
+        'deskripsi' => 'Penelitian ini berfokus pada perancangan sistem mitigasi bencana meteorologi (web based) di Surabaya dengan memanfaatkan data dari Automatic Weather Station (AWS) BMKG Juanda dan API openAI ChatGPT. Sistem ini akan menentukan model cuaca ektrem di daerah Surabaya seperti Banjir dan windstorm (hujan angin) menggunakan data cuaca dan kemampuan pemrosesan LLM untuk menghasilkan peringatan dini H-3 hari sebelum kejadian agar mudah dipahami oleh masyarakat awam (human-readable).
+        Fokus utama penelitian meliputi integrasi API data cuaca, perancangan prompt engineering yang optimal untuk konteks lokal Surabaya, serta pengembangan platform diseminasi informasi otomatis. Tujuannya adalah meminimalkan risiko dampak cuaca ekstrem di perkotaan dengan menyediakan informasi prediktif yang interaktif dan responsif.
+
+<strong>Requirements</strong>:
+1. Minat pada AI & Data Science: Memiliki ketertarikan kuat atau kemauan belajar di bidang Artificial Intelligence, khususnya Large Language Models (seperti GPT, Llama, atau Gemini API) dan Natural Language Processing (NLP).
+2. Pemrograman & Integrasi Data (MATLAB): Memiliki kemampuan atau kemauan belajar pemrograman Python (diutamakan), manajemen database sederhana, dan penggunaan API (Application Programming Interface).
+3. Analisis Data Cuaca: Bersedia mempelajari dasar-dasar meteorologi terapan pada alat AWS.
+4. Skill menulis (mandatori).        
+',
+        'kuota' => '2-3',
+        'link' => "https://wa.me/+6581565003",
+        'deadline' => "-",
         ],
 
     ],
