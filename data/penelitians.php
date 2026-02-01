@@ -134,8 +134,8 @@ return [
 2. Pernah mengerjakan proyek robot / IoT
 3. Familiar dengan aplikasi flutter/ MIT app Inventor/Android Studio',
         'kuota' => 2,
-        'link' => "https://unesa.me/MagangRisetYandhika",
-        'deadline' => "-",
+        'link' => "",
+        'deadline' => "31 Januari 2026",
         ],
         
     ],
